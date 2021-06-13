@@ -1,0 +1,418 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa2f00d73103d484ea948847e5ffef65, type: 3}
+  m_Name: LevelSetting
+  m_EditorClassIdentifier: 
+  levelSettings:
+  - trackLenght: 200
+    trackWidth: 10
+    enemySpeed: 1
+    enemySpeedX: 0
+    enemyCount: 30
+    playerSpeedMin: 6
+    playerSpeedMax: 12
+    playerSpeedX: 500
+    hurdleSettings:
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 25}
+    - hurdleIndex: 1
+      hurdlePos: {x: -4, y: 0.5, z: 40}
+    - hurdleIndex: 1
+      hurdlePos: {x: -2.5, y: 0.5, z: 70}
+    - hurdleIndex: 1
+      hurdlePos: {x: 4.5, y: 0.5, z: 80}
+    - hurdleIndex: 1
+      hurdlePos: {x: -2.5, y: 0.5, z: 90}
+    - hurdleIndex: 1
+      hurdlePos: {x: -2.5, y: 0.5, z: 90}
+    - hurdleIndex: 1
+      hurdlePos: {x: 0.5, y: 0.5, z: 32}
+    - hurdleIndex: 1
+      hurdlePos: {x: 4.5, y: 0.5, z: 42}
+    - hurdleIndex: 1
+      hurdlePos: {x: 2, y: 0.5, z: 50}
+    - hurdleIndex: 1
+      hurdlePos: {x: -4.5, y: 0.5, z: 55}
+    - hurdleIndex: 1
+      hurdlePos: {x: 0, y: 0.5, z: 60}
+    - hurdleIndex: 1
+      hurdlePos: {x: 4.5, y: 0.5, z: 70}
+    - hurdleIndex: 1
+      hurdlePos: {x: -2.5, y: 0.5, z: 80}
+    - hurdleIndex: 1
+      hurdlePos: {x: -2.5, y: 0.5, z: 90}
+    - hurdleIndex: 1
+      hurdlePos: {x: -2.5, y: 0.5, z: 100}
+    - hurdleIndex: 1
+      hurdlePos: {x: 4.5, y: 0.5, z: 110}
+    - hurdleIndex: 1
+      hurdlePos: {x: -2.5, y: 0.5, z: 120}
+    - hurdleIndex: 1
+      hurdlePos: {x: 4.5, y: 0.5, z: 130}
+    - hurdleIndex: 1
+      hurdlePos: {x: -2.5, y: 0.5, z: 140}
+    - hurdleIndex: 1
+      hurdlePos: {x: 4.5, y: 0.5, z: 150}
+    - hurdleIndex: 1
+      hurdlePos: {x: -2.5, y: 0.5, z: 160}
+    - hurdleIndex: 1
+      hurdlePos: {x: 4.5, y: 0.5, z: 170}
+    - hurdleIndex: 1
+      hurdlePos: {x: -2.5, y: 0.5, z: 180}
+    - hurdleIndex: 1
+      hurdlePos: {x: 4.5, y: 0.5, z: 190}
+    - hurdleIndex: 1
+      hurdlePos: {x: -2.5, y: 0.5, z: 190}
+  - trackLenght: 200
+    trackWidth: 10
+    enemySpeed: 1
+    enemySpeedX: 0
+    enemyCount: 50
+    playerSpeedMin: 8
+    playerSpeedMax: 12
+    playerSpeedX: 500
+    hurdleSettings:
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 30}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 30}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 30}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 40}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 50}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 60}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 70}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 80}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 90}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 100}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 110}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 120}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 130}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 140}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 150}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 160}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 170}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 180}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 190}
+  - trackLenght: 200
+    trackWidth: 10
+    enemySpeed: 1
+    enemySpeedX: 0
+    enemyCount: 60
+    playerSpeedMin: 8
+    playerSpeedMax: 12
+    playerSpeedX: 500
+    hurdleSettings:
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 30}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 40}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 50}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 60}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 70}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 80}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 90}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 100}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 30}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 110}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 120}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 130}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 140}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 150}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 160}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 30}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 40}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 50}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 60}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 70}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 80}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 90}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 100}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 110}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 120}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 130}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 140}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 150}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 160}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 170}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 30}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 40}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 50}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 60}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 70}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 80}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 90}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 100}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 110}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 120}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 130}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 140}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 150}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 160}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 170}
+  - trackLenght: 200
+    trackWidth: 10
+    enemySpeed: 1
+    enemySpeedX: 0
+    enemyCount: 70
+    playerSpeedMin: 10
+    playerSpeedMax: 12
+    playerSpeedX: 500
+    hurdleSettings:
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 30}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 40}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 50}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 60}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 70}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 80}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 90}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 100}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 30}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 110}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 120}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 130}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 140}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 150}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 160}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 30}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 40}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 50}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 60}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 70}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 80}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 90}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 100}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 110}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 120}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 130}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 140}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 150}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 160}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 170}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 30}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 40}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 50}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 60}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 70}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 80}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 90}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 100}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 110}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 120}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 130}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 140}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 150}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 160}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 170}
+  - trackLenght: 200
+    trackWidth: 10
+    enemySpeed: 1
+    enemySpeedX: 0
+    enemyCount: 70
+    playerSpeedMin: 10
+    playerSpeedMax: 12
+    playerSpeedX: 500
+    hurdleSettings:
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 30}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 40}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 50}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 60}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 70}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 80}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 90}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 100}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 30}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 110}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 120}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 130}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 140}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 150}
+    - hurdleIndex: 0
+      hurdlePos: {x: 4.5, y: 0.5, z: 160}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 30}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 40}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 50}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 60}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 70}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 80}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 90}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 100}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 110}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 120}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 130}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 140}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 150}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 160}
+    - hurdleIndex: 0
+      hurdlePos: {x: 0, y: 0.5, z: 170}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 30}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 40}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 50}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 60}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 70}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 80}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 90}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 100}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 110}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 120}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 130}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 140}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 150}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 160}
+    - hurdleIndex: 0
+      hurdlePos: {x: -4.5, y: 0.5, z: 170}
